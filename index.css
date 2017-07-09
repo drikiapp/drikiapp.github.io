@@ -145,7 +145,7 @@ p {
 	-webkit-filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.1));
 }
 
-.app-icon p {
+.app-name p {
 	font-size: 48px;
 	font-weight: 500;
 	white-space: nowrap;
@@ -156,8 +156,8 @@ p {
 		margin: 0;
 	}
 
-	.app-icon p {
-		margin-left: 2px;
+	.app-name p {
+		margin-left: -3px;
 	}
 }
 
@@ -173,15 +173,15 @@ p {
 	.intro {
 		max-width: 100%;
 		margin-top: 28%;
-		margin-bottom: 40px;
+		margin-bottom: 80px;
 	}
 }
 
 .intro h2 {
 	margin-bottom: 20px;
 	font-size: 28px;
-	font-weight: 200;
-	line-height: 1.2;
+	font-weight: 400;
+	line-height: 1.5;
 }
 
 @media only screen and (min-width: 580px) {
